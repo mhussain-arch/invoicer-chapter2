@@ -32,7 +32,7 @@ jobs:
       command: |
           go test \
           github.com/mhussain-arch/invoicer-chapter2
-
+# test
    - deploy:
        command: |
          if [ "${CIRCLE_BRANCH}" == "master" ]; then
